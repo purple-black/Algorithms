@@ -3,7 +3,7 @@
 from array import array
 
 def selection_sort(x):
-    for i in range(len(x)):
+    for i in range(len(x)-1):
         imin = i
         for j in range(i+1,len(x)):
             if x[j] < x[imin]:
